@@ -1,0 +1,1392 @@
+{
+  "generatedOn": "2026-07-19",
+  "evaluation": {
+    "holdout_start": "2025-02-01",
+    "holdout_end": "2026-01-01",
+    "observations": 120,
+    "model": {
+      "mae": 14577.474246093296,
+      "rmse": 27910.86071993319,
+      "wape": 0.14110257743403348
+    },
+    "model_alpha": 30.0,
+    "seasonal_naive": {
+      "mae": 9317.308333333332,
+      "rmse": 16054.984873085368,
+      "wape": 0.09018683198382363
+    },
+    "selected_model": "seasonal_naive"
+  },
+  "backtest": [
+    {
+      "month": "2025-02",
+      "actual": 1030417,
+      "holidayModel": 1261307.2682453634,
+      "seasonalNaive": 1061680
+    },
+    {
+      "month": "2025-03",
+      "actual": 957248,
+      "holidayModel": 1178192.5178210146,
+      "seasonalNaive": 1095512
+    },
+    {
+      "month": "2025-04",
+      "actual": 1032913,
+      "holidayModel": 1066304.9231184162,
+      "seasonalNaive": 994162
+    },
+    {
+      "month": "2025-05",
+      "actual": 1036233,
+      "holidayModel": 1087876.0687126534,
+      "seasonalNaive": 968226
+    },
+    {
+      "month": "2025-06",
+      "actual": 938704,
+      "holidayModel": 1084725.921542371,
+      "seasonalNaive": 949485
+    },
+    {
+      "month": "2025-07",
+      "actual": 1227098,
+      "holidayModel": 1135332.9253805135,
+      "seasonalNaive": 1189793
+    },
+    {
+      "month": "2025-08",
+      "actual": 1148364,
+      "holidayModel": 1200814.6693078054,
+      "seasonalNaive": 1123057
+    },
+    {
+      "month": "2025-09",
+      "actual": 933722,
+      "holidayModel": 1127391.6389988926,
+      "seasonalNaive": 950878
+    },
+    {
+      "month": "2025-10",
+      "actual": 1000405,
+      "holidayModel": 1082293.484845743,
+      "seasonalNaive": 974520
+    },
+    {
+      "month": "2025-11",
+      "actual": 957586,
+      "holidayModel": 1026150.6442286609,
+      "seasonalNaive": 917164
+    },
+    {
+      "month": "2025-12",
+      "actual": 1018911,
+      "holidayModel": 1137874.9422895869,
+      "seasonalNaive": 1058696
+    },
+    {
+      "month": "2026-01",
+      "actual": 1115741,
+      "holidayModel": 1187334.959849051,
+      "seasonalNaive": 1253196
+    }
+  ],
+  "pressure": [
+    {
+      "month": "2026-02",
+      "modeledArrivals": 1030417,
+      "averagePresent": 174805,
+      "pressureIndex": 99.5
+    },
+    {
+      "month": "2026-03",
+      "modeledArrivals": 957248,
+      "averagePresent": 146677,
+      "pressureIndex": 83.5
+    },
+    {
+      "month": "2026-04",
+      "modeledArrivals": 1032913,
+      "averagePresent": 163547,
+      "pressureIndex": 93.1
+    },
+    {
+      "month": "2026-05",
+      "modeledArrivals": 1036233,
+      "averagePresent": 158780,
+      "pressureIndex": 90.4
+    },
+    {
+      "month": "2026-06",
+      "modeledArrivals": 938704,
+      "averagePresent": 148630,
+      "pressureIndex": 84.6
+    },
+    {
+      "month": "2026-07",
+      "modeledArrivals": 1227098,
+      "averagePresent": 188026,
+      "pressureIndex": 107.1
+    },
+    {
+      "month": "2026-08",
+      "modeledArrivals": 1148364,
+      "averagePresent": 175962,
+      "pressureIndex": 100.2
+    },
+    {
+      "month": "2026-09",
+      "modeledArrivals": 933722,
+      "averagePresent": 147841,
+      "pressureIndex": 84.2
+    },
+    {
+      "month": "2026-10",
+      "modeledArrivals": 1000405,
+      "averagePresent": 153290,
+      "pressureIndex": 87.3
+    },
+    {
+      "month": "2026-11",
+      "modeledArrivals": 957586,
+      "averagePresent": 151620,
+      "pressureIndex": 86.3
+    },
+    {
+      "month": "2026-12",
+      "modeledArrivals": 1018911,
+      "averagePresent": 156126,
+      "pressureIndex": 88.9
+    },
+    {
+      "month": "2027-01",
+      "modeledArrivals": 1115741,
+      "averagePresent": 170963,
+      "pressureIndex": 97.3
+    }
+  ],
+  "marketForecasts": {
+    "Australia": [
+      {
+        "month": "2026-02",
+        "arrivals": 85012
+      },
+      {
+        "month": "2026-03",
+        "arrivals": 81781
+      },
+      {
+        "month": "2026-04",
+        "arrivals": 116848
+      },
+      {
+        "month": "2026-05",
+        "arrivals": 90145
+      },
+      {
+        "month": "2026-06",
+        "arrivals": 90887
+      },
+      {
+        "month": "2026-07",
+        "arrivals": 121503
+      },
+      {
+        "month": "2026-08",
+        "arrivals": 84925
+      },
+      {
+        "month": "2026-09",
+        "arrivals": 107322
+      },
+      {
+        "month": "2026-10",
+        "arrivals": 116372
+      },
+      {
+        "month": "2026-11",
+        "arrivals": 103828
+      },
+      {
+        "month": "2026-12",
+        "arrivals": 127468
+      },
+      {
+        "month": "2027-01",
+        "arrivals": 140780
+      }
+    ],
+    "China": [
+      {
+        "month": "2026-02",
+        "arrivals": 267974
+      },
+      {
+        "month": "2026-03",
+        "arrivals": 187036
+      },
+      {
+        "month": "2026-04",
+        "arrivals": 207505
+      },
+      {
+        "month": "2026-05",
+        "arrivals": 242013
+      },
+      {
+        "month": "2026-06",
+        "arrivals": 197185
+      },
+      {
+        "month": "2026-07",
+        "arrivals": 414488
+      },
+      {
+        "month": "2026-08",
+        "arrivals": 398206
+      },
+      {
+        "month": "2026-09",
+        "arrivals": 207028
+      },
+      {
+        "month": "2026-10",
+        "arrivals": 226010
+      },
+      {
+        "month": "2026-11",
+        "arrivals": 203531
+      },
+      {
+        "month": "2026-12",
+        "arrivals": 172688
+      },
+      {
+        "month": "2027-01",
+        "arrivals": 271953
+      }
+    ],
+    "India": [
+      {
+        "month": "2026-02",
+        "arrivals": 74869
+      },
+      {
+        "month": "2026-03",
+        "arrivals": 101198
+      },
+      {
+        "month": "2026-04",
+        "arrivals": 118660
+      },
+      {
+        "month": "2026-05",
+        "arrivals": 154403
+      },
+      {
+        "month": "2026-06",
+        "arrivals": 112726
+      },
+      {
+        "month": "2026-07",
+        "arrivals": 85791
+      },
+      {
+        "month": "2026-08",
+        "arrivals": 91142
+      },
+      {
+        "month": "2026-09",
+        "arrivals": 99038
+      },
+      {
+        "month": "2026-10",
+        "arrivals": 103054
+      },
+      {
+        "month": "2026-11",
+        "arrivals": 84252
+      },
+      {
+        "month": "2026-12",
+        "arrivals": 96629
+      },
+      {
+        "month": "2027-01",
+        "arrivals": 85995
+      }
+    ],
+    "Indonesia": [
+      {
+        "month": "2026-02",
+        "arrivals": 192616
+      },
+      {
+        "month": "2026-03",
+        "arrivals": 195890
+      },
+      {
+        "month": "2026-04",
+        "arrivals": 236847
+      },
+      {
+        "month": "2026-05",
+        "arrivals": 197881
+      },
+      {
+        "month": "2026-06",
+        "arrivals": 205552
+      },
+      {
+        "month": "2026-07",
+        "arrivals": 223463
+      },
+      {
+        "month": "2026-08",
+        "arrivals": 162901
+      },
+      {
+        "month": "2026-09",
+        "arrivals": 169866
+      },
+      {
+        "month": "2026-10",
+        "arrivals": 177211
+      },
+      {
+        "month": "2026-11",
+        "arrivals": 181468
+      },
+      {
+        "month": "2026-12",
+        "arrivals": 244364
+      },
+      {
+        "month": "2027-01",
+        "arrivals": 218439
+      }
+    ],
+    "Japan": [
+      {
+        "month": "2026-02",
+        "arrivals": 55785
+      },
+      {
+        "month": "2026-03",
+        "arrivals": 65548
+      },
+      {
+        "month": "2026-04",
+        "arrivals": 31817
+      },
+      {
+        "month": "2026-05",
+        "arrivals": 40441
+      },
+      {
+        "month": "2026-06",
+        "arrivals": 35118
+      },
+      {
+        "month": "2026-07",
+        "arrivals": 56097
+      },
+      {
+        "month": "2026-08",
+        "arrivals": 92867
+      },
+      {
+        "month": "2026-09",
+        "arrivals": 59315
+      },
+      {
+        "month": "2026-10",
+        "arrivals": 54862
+      },
+      {
+        "month": "2026-11",
+        "arrivals": 53018
+      },
+      {
+        "month": "2026-12",
+        "arrivals": 42592
+      },
+      {
+        "month": "2027-01",
+        "arrivals": 43090
+      }
+    ],
+    "Malaysia": [
+      {
+        "month": "2026-02",
+        "arrivals": 105762
+      },
+      {
+        "month": "2026-03",
+        "arrivals": 104150
+      },
+      {
+        "month": "2026-04",
+        "arrivals": 109253
+      },
+      {
+        "month": "2026-05",
+        "arrivals": 111673
+      },
+      {
+        "month": "2026-06",
+        "arrivals": 100986
+      },
+      {
+        "month": "2026-07",
+        "arrivals": 88384
+      },
+      {
+        "month": "2026-08",
+        "arrivals": 88675
+      },
+      {
+        "month": "2026-09",
+        "arrivals": 120634
+      },
+      {
+        "month": "2026-10",
+        "arrivals": 110303
+      },
+      {
+        "month": "2026-11",
+        "arrivals": 117163
+      },
+      {
+        "month": "2026-12",
+        "arrivals": 116067
+      },
+      {
+        "month": "2027-01",
+        "arrivals": 116682
+      }
+    ],
+    "Philippines": [
+      {
+        "month": "2026-02",
+        "arrivals": 50154
+      },
+      {
+        "month": "2026-03",
+        "arrivals": 51623
+      },
+      {
+        "month": "2026-04",
+        "arrivals": 69047
+      },
+      {
+        "month": "2026-05",
+        "arrivals": 74560
+      },
+      {
+        "month": "2026-06",
+        "arrivals": 66647
+      },
+      {
+        "month": "2026-07",
+        "arrivals": 62381
+      },
+      {
+        "month": "2026-08",
+        "arrivals": 61462
+      },
+      {
+        "month": "2026-09",
+        "arrivals": 51355
+      },
+      {
+        "month": "2026-10",
+        "arrivals": 64398
+      },
+      {
+        "month": "2026-11",
+        "arrivals": 59859
+      },
+      {
+        "month": "2026-12",
+        "arrivals": 65491
+      },
+      {
+        "month": "2027-01",
+        "arrivals": 42526
+      }
+    ],
+    "South Korea": [
+      {
+        "month": "2026-02",
+        "arrivals": 72230
+      },
+      {
+        "month": "2026-03",
+        "arrivals": 38446
+      },
+      {
+        "month": "2026-04",
+        "arrivals": 32026
+      },
+      {
+        "month": "2026-05",
+        "arrivals": 39936
+      },
+      {
+        "month": "2026-06",
+        "arrivals": 36356
+      },
+      {
+        "month": "2026-07",
+        "arrivals": 59416
+      },
+      {
+        "month": "2026-08",
+        "arrivals": 64983
+      },
+      {
+        "month": "2026-09",
+        "arrivals": 35676
+      },
+      {
+        "month": "2026-10",
+        "arrivals": 50782
+      },
+      {
+        "month": "2026-11",
+        "arrivals": 41934
+      },
+      {
+        "month": "2026-12",
+        "arrivals": 35924
+      },
+      {
+        "month": "2027-01",
+        "arrivals": 69227
+      }
+    ],
+    "USA": [
+      {
+        "month": "2026-02",
+        "arrivals": 65777
+      },
+      {
+        "month": "2026-03",
+        "arrivals": 68300
+      },
+      {
+        "month": "2026-04",
+        "arrivals": 54197
+      },
+      {
+        "month": "2026-05",
+        "arrivals": 47768
+      },
+      {
+        "month": "2026-06",
+        "arrivals": 62920
+      },
+      {
+        "month": "2026-07",
+        "arrivals": 67604
+      },
+      {
+        "month": "2026-08",
+        "arrivals": 49956
+      },
+      {
+        "month": "2026-09",
+        "arrivals": 44191
+      },
+      {
+        "month": "2026-10",
+        "arrivals": 50146
+      },
+      {
+        "month": "2026-11",
+        "arrivals": 63161
+      },
+      {
+        "month": "2026-12",
+        "arrivals": 71927
+      },
+      {
+        "month": "2027-01",
+        "arrivals": 71508
+      }
+    ],
+    "United Kingdom": [
+      {
+        "month": "2026-02",
+        "arrivals": 60238
+      },
+      {
+        "month": "2026-03",
+        "arrivals": 63276
+      },
+      {
+        "month": "2026-04",
+        "arrivals": 56713
+      },
+      {
+        "month": "2026-05",
+        "arrivals": 37413
+      },
+      {
+        "month": "2026-06",
+        "arrivals": 30327
+      },
+      {
+        "month": "2026-07",
+        "arrivals": 47971
+      },
+      {
+        "month": "2026-08",
+        "arrivals": 53247
+      },
+      {
+        "month": "2026-09",
+        "arrivals": 39297
+      },
+      {
+        "month": "2026-10",
+        "arrivals": 47267
+      },
+      {
+        "month": "2026-11",
+        "arrivals": 49372
+      },
+      {
+        "month": "2026-12",
+        "arrivals": 45761
+      },
+      {
+        "month": "2027-01",
+        "arrivals": 55541
+      }
+    ]
+  },
+  "holidays": [
+    {
+      "market": "Japan",
+      "date": "2026-07-20",
+      "name": "海の日",
+      "daysAway": 1
+    },
+    {
+      "market": "Malaysia",
+      "date": "2026-07-21",
+      "name": "Hari Hol Almarhum Sultan Iskandar",
+      "daysAway": 2,
+      "region": "Johor"
+    },
+    {
+      "market": "Japan",
+      "date": "2026-08-11",
+      "name": "山の日",
+      "daysAway": 23
+    },
+    {
+      "market": "India",
+      "date": "2026-08-15",
+      "name": "Independence Day",
+      "daysAway": 27
+    },
+    {
+      "market": "South Korea",
+      "date": "2026-08-15",
+      "name": "광복절",
+      "daysAway": 27
+    },
+    {
+      "market": "Indonesia",
+      "date": "2026-08-17",
+      "name": "Hari Kemerdekaan Republik Indonesia",
+      "daysAway": 29
+    },
+    {
+      "market": "South Korea",
+      "date": "2026-08-17",
+      "name": "광복절 대체 휴일",
+      "daysAway": 29
+    },
+    {
+      "market": "Philippines",
+      "date": "2026-08-21",
+      "name": "Ninoy Aquino Day",
+      "daysAway": 33
+    },
+    {
+      "market": "Indonesia",
+      "date": "2026-08-25",
+      "name": "Maulid Nabi Muhammad",
+      "daysAway": 37
+    },
+    {
+      "market": "Malaysia",
+      "date": "2026-08-25",
+      "name": "Hari Keputeraan Nabi Muhammad S.A.W.",
+      "daysAway": 37
+    },
+    {
+      "market": "India",
+      "date": "2026-08-26",
+      "name": "Milad-un-Nabi",
+      "daysAway": 38
+    },
+    {
+      "market": "Malaysia",
+      "date": "2026-08-31",
+      "name": "Hari Kebangsaan",
+      "daysAway": 43
+    },
+    {
+      "market": "Philippines",
+      "date": "2026-08-31",
+      "name": "National Heroes Day",
+      "daysAway": 43
+    },
+    {
+      "market": "India",
+      "date": "2026-09-04",
+      "name": "Janmashtami (Vaishnava)",
+      "daysAway": 47
+    },
+    {
+      "market": "USA",
+      "date": "2026-09-07",
+      "name": "Labor Day",
+      "daysAway": 50
+    },
+    {
+      "market": "Malaysia",
+      "date": "2026-09-16",
+      "name": "Hari Malaysia",
+      "daysAway": 59
+    },
+    {
+      "market": "Japan",
+      "date": "2026-09-21",
+      "name": "敬老の日",
+      "daysAway": 64
+    },
+    {
+      "market": "Japan",
+      "date": "2026-09-22",
+      "name": "国民の休日",
+      "daysAway": 65
+    },
+    {
+      "market": "Japan",
+      "date": "2026-09-23",
+      "name": "秋分の日",
+      "daysAway": 66
+    },
+    {
+      "market": "South Korea",
+      "date": "2026-09-24",
+      "name": "추석 전날",
+      "daysAway": 67
+    },
+    {
+      "market": "China",
+      "date": "2026-09-25",
+      "name": "中秋节",
+      "daysAway": 68
+    },
+    {
+      "market": "South Korea",
+      "date": "2026-09-25",
+      "name": "추석",
+      "daysAway": 68
+    },
+    {
+      "market": "South Korea",
+      "date": "2026-09-26",
+      "name": "추석 다음날",
+      "daysAway": 69
+    },
+    {
+      "market": "China",
+      "date": "2026-10-01",
+      "name": "国庆节",
+      "daysAway": 74
+    },
+    {
+      "market": "China",
+      "date": "2026-10-02",
+      "name": "国庆节",
+      "daysAway": 75
+    },
+    {
+      "market": "India",
+      "date": "2026-10-02",
+      "name": "Mahatma Gandhi's Jayanti",
+      "daysAway": 75
+    },
+    {
+      "market": "China",
+      "date": "2026-10-03",
+      "name": "国庆节",
+      "daysAway": 76
+    },
+    {
+      "market": "South Korea",
+      "date": "2026-10-03",
+      "name": "개천절",
+      "daysAway": 76
+    },
+    {
+      "market": "China",
+      "date": "2026-10-05",
+      "name": "国庆节（补假）",
+      "daysAway": 78
+    },
+    {
+      "market": "South Korea",
+      "date": "2026-10-05",
+      "name": "개천절 대체 휴일",
+      "daysAway": 78
+    },
+    {
+      "market": "China",
+      "date": "2026-10-06",
+      "name": "休息日（由 2026-09-20 调休）",
+      "daysAway": 79
+    },
+    {
+      "market": "China",
+      "date": "2026-10-07",
+      "name": "休息日（由 2026-10-10 调休）",
+      "daysAway": 80
+    },
+    {
+      "market": "South Korea",
+      "date": "2026-10-09",
+      "name": "한글날",
+      "daysAway": 82
+    },
+    {
+      "market": "Japan",
+      "date": "2026-10-12",
+      "name": "スポーツの日",
+      "daysAway": 85
+    },
+    {
+      "market": "USA",
+      "date": "2026-10-12",
+      "name": "Columbus Day",
+      "daysAway": 85
+    },
+    {
+      "market": "India",
+      "date": "2026-10-20",
+      "name": "Dussehra",
+      "daysAway": 93
+    },
+    {
+      "market": "Philippines",
+      "date": "2026-11-01",
+      "name": "All Saints' Day",
+      "daysAway": 105
+    },
+    {
+      "market": "Philippines",
+      "date": "2026-11-02",
+      "name": "All Souls' Day",
+      "daysAway": 106
+    },
+    {
+      "market": "Japan",
+      "date": "2026-11-03",
+      "name": "文化の日",
+      "daysAway": 107
+    },
+    {
+      "market": "India",
+      "date": "2026-11-08",
+      "name": "Diwali (Deepavali)",
+      "daysAway": 112
+    },
+    {
+      "market": "Malaysia",
+      "date": "2026-11-08",
+      "name": "Hari Deepavali",
+      "daysAway": 112,
+      "region": "Johor"
+    },
+    {
+      "market": "Malaysia",
+      "date": "2026-11-09",
+      "name": "Cuti Hari Deepavali",
+      "daysAway": 113,
+      "region": "Johor"
+    },
+    {
+      "market": "USA",
+      "date": "2026-11-11",
+      "name": "Veterans Day",
+      "daysAway": 115
+    },
+    {
+      "market": "Japan",
+      "date": "2026-11-23",
+      "name": "勤労感謝の日",
+      "daysAway": 127
+    },
+    {
+      "market": "India",
+      "date": "2026-11-24",
+      "name": "Guru Nanak's Jayanti",
+      "daysAway": 128
+    },
+    {
+      "market": "USA",
+      "date": "2026-11-26",
+      "name": "Thanksgiving Day",
+      "daysAway": 130
+    },
+    {
+      "market": "Philippines",
+      "date": "2026-11-30",
+      "name": "Bonifacio Day",
+      "daysAway": 134
+    },
+    {
+      "market": "Philippines",
+      "date": "2026-12-08",
+      "name": "Feast of the Immaculate Conception of Mary",
+      "daysAway": 142
+    },
+    {
+      "market": "Philippines",
+      "date": "2026-12-24",
+      "name": "Christmas Eve",
+      "daysAway": 158
+    },
+    {
+      "market": "Australia",
+      "date": "2026-12-25",
+      "name": "Christmas Day",
+      "daysAway": 159
+    },
+    {
+      "market": "India",
+      "date": "2026-12-25",
+      "name": "Christmas",
+      "daysAway": 159
+    },
+    {
+      "market": "Indonesia",
+      "date": "2026-12-25",
+      "name": "Hari Raya Natal",
+      "daysAway": 159
+    },
+    {
+      "market": "Malaysia",
+      "date": "2026-12-25",
+      "name": "Hari Krismas",
+      "daysAway": 159
+    },
+    {
+      "market": "Philippines",
+      "date": "2026-12-25",
+      "name": "Christmas Day",
+      "daysAway": 159
+    },
+    {
+      "market": "South Korea",
+      "date": "2026-12-25",
+      "name": "기독탄신일",
+      "daysAway": 159
+    },
+    {
+      "market": "USA",
+      "date": "2026-12-25",
+      "name": "Christmas Day",
+      "daysAway": 159
+    },
+    {
+      "market": "United Kingdom",
+      "date": "2026-12-25",
+      "name": "Christmas Day",
+      "daysAway": 159
+    },
+    {
+      "market": "Australia",
+      "date": "2026-12-26",
+      "name": "Boxing Day",
+      "daysAway": 160
+    },
+    {
+      "market": "United Kingdom",
+      "date": "2026-12-26",
+      "name": "Boxing Day",
+      "daysAway": 160
+    },
+    {
+      "market": "United Kingdom",
+      "date": "2026-12-28",
+      "name": "Boxing Day (observed)",
+      "daysAway": 162
+    },
+    {
+      "market": "Philippines",
+      "date": "2026-12-30",
+      "name": "Rizal Day",
+      "daysAway": 164
+    },
+    {
+      "market": "Philippines",
+      "date": "2026-12-31",
+      "name": "Last Day of the Year",
+      "daysAway": 165
+    },
+    {
+      "market": "Australia",
+      "date": "2027-01-01",
+      "name": "New Year's Day",
+      "daysAway": 166
+    },
+    {
+      "market": "China",
+      "date": "2027-01-01",
+      "name": "元旦",
+      "daysAway": 166
+    },
+    {
+      "market": "Indonesia",
+      "date": "2027-01-01",
+      "name": "Tahun Baru Masehi",
+      "daysAway": 166
+    },
+    {
+      "market": "Japan",
+      "date": "2027-01-01",
+      "name": "元日",
+      "daysAway": 166
+    },
+    {
+      "market": "Philippines",
+      "date": "2027-01-01",
+      "name": "New Year's Day",
+      "daysAway": 166
+    },
+    {
+      "market": "South Korea",
+      "date": "2027-01-01",
+      "name": "신정연휴",
+      "daysAway": 166
+    },
+    {
+      "market": "USA",
+      "date": "2027-01-01",
+      "name": "New Year's Day",
+      "daysAway": 166
+    },
+    {
+      "market": "United Kingdom",
+      "date": "2027-01-01",
+      "name": "New Year's Day",
+      "daysAway": 166
+    },
+    {
+      "market": "Indonesia",
+      "date": "2027-01-05",
+      "name": "Isra Mikraj Nabi Muhammad (perkiraan)",
+      "daysAway": 170
+    },
+    {
+      "market": "Japan",
+      "date": "2027-01-11",
+      "name": "成人の日",
+      "daysAway": 176
+    },
+    {
+      "market": "USA",
+      "date": "2027-01-18",
+      "name": "Martin Luther King Jr. Day",
+      "daysAway": 183
+    },
+    {
+      "market": "Malaysia",
+      "date": "2027-01-22",
+      "name": "Hari Thaipusam",
+      "daysAway": 187,
+      "region": "Johor"
+    },
+    {
+      "market": "Australia",
+      "date": "2027-01-26",
+      "name": "Australia Day",
+      "daysAway": 191
+    },
+    {
+      "market": "India",
+      "date": "2027-01-26",
+      "name": "Republic Day",
+      "daysAway": 191
+    }
+  ],
+  "markets": [
+    "China",
+    "Indonesia",
+    "Malaysia",
+    "Australia",
+    "India",
+    "Japan",
+    "South Korea",
+    "Philippines",
+    "United Kingdom",
+    "USA"
+  ],
+  "schoolBreaks": [
+    {
+      "market": "USA",
+      "name": "Summer recess",
+      "scope": "New York City proxy",
+      "startDate": "2026-06-27",
+      "endDate": "2026-09-07",
+      "days": 73,
+      "sourceUrl": "https://www.schools.nyc.gov/calendar/2025-2026-school-year-calendar"
+    },
+    {
+      "market": "China",
+      "name": "Summer school break",
+      "scope": "Beijing proxy",
+      "startDate": "2026-07-08",
+      "endDate": "2026-08-31",
+      "days": 55,
+      "sourceUrl": "https://jw.beijing.gov.cn/xxgk/2024zcwj/2024qtwj/202507/t20250704_4141331.html"
+    },
+    {
+      "market": "South Korea",
+      "name": "Summer school break",
+      "scope": "Seoul proxy",
+      "startDate": "2026-07-20",
+      "endDate": "2026-08-16",
+      "days": 28,
+      "sourceUrl": "https://www.sen.go.kr/"
+    },
+    {
+      "market": "Japan",
+      "name": "Summer school break",
+      "scope": "Tokyo metropolitan proxy",
+      "startDate": "2026-07-21",
+      "endDate": "2026-08-31",
+      "days": 42,
+      "sourceUrl": "https://www.kyoiku.metro.tokyo.lg.jp/"
+    },
+    {
+      "market": "United Kingdom",
+      "name": "Summer school break",
+      "scope": "Somerset / England proxy",
+      "startDate": "2026-07-23",
+      "endDate": "2026-09-02",
+      "days": 42,
+      "sourceUrl": "https://www.somerset.gov.uk/children-families-and-education/school-life/school-term-dates-and-holidays/"
+    },
+    {
+      "market": "Malaysia",
+      "name": "Term 2 break",
+      "scope": "Johor / KPM Group B",
+      "startDate": "2026-08-29",
+      "endDate": "2026-09-06",
+      "days": 9,
+      "sourceUrl": "https://www.moe.gov.my/storage/files/shares/Takwim/Takwim%20Persekolahan/Kalendar%20Akademik%202026.pdf"
+    },
+    {
+      "market": "Australia",
+      "name": "Spring school break",
+      "scope": "NSW Eastern Division proxy",
+      "startDate": "2026-09-28",
+      "endDate": "2026-10-09",
+      "days": 12,
+      "sourceUrl": "https://education.nsw.gov.au/schooling/calendars/2026"
+    },
+    {
+      "market": "India",
+      "name": "Autumn school break",
+      "scope": "Delhi proxy",
+      "startDate": "2026-09-29",
+      "endDate": "2026-10-01",
+      "days": 3,
+      "sourceUrl": "https://www.edudel.nic.in/upload/upload_2023_24/1010_dt_04122024.pdf"
+    },
+    {
+      "market": "United Kingdom",
+      "name": "Autumn half-term",
+      "scope": "Somerset / England proxy",
+      "startDate": "2026-10-25",
+      "endDate": "2026-11-02",
+      "days": 9,
+      "sourceUrl": "https://www.somerset.gov.uk/children-families-and-education/school-life/school-term-dates-and-holidays/"
+    },
+    {
+      "market": "Malaysia",
+      "name": "Deepavali school extension",
+      "scope": "Johor / KPM Group B",
+      "startDate": "2026-11-08",
+      "endDate": "2026-11-10",
+      "days": 3,
+      "sourceUrl": "https://www.moe.gov.my/storage/files/shares/Takwim/Takwim%20Persekolahan/Kalendar%20Akademik%202026.pdf"
+    },
+    {
+      "market": "Malaysia",
+      "name": "Year-end school break",
+      "scope": "Johor / KPM Group B",
+      "startDate": "2026-12-05",
+      "endDate": "2026-12-31",
+      "days": 27,
+      "sourceUrl": "https://www.moe.gov.my/storage/files/shares/Takwim/Takwim%20Persekolahan/Kalendar%20Akademik%202026.pdf"
+    },
+    {
+      "market": "Indonesia",
+      "name": "Semester 1 break",
+      "scope": "Jakarta proxy",
+      "startDate": "2026-12-20",
+      "endDate": "2027-01-03",
+      "days": 15,
+      "sourceUrl": "https://edu.jakarta.go.id/cdn/files/photos/cms/kalender20252026.pdf"
+    },
+    {
+      "market": "Philippines",
+      "name": "Christmas school break",
+      "scope": "DepEd public-school proxy",
+      "startDate": "2026-12-20",
+      "endDate": "2027-01-04",
+      "days": 16,
+      "sourceUrl": "https://www.deped.gov.ph/"
+    },
+    {
+      "market": "United Kingdom",
+      "name": "Christmas school break",
+      "scope": "Somerset / England proxy",
+      "startDate": "2026-12-20",
+      "endDate": "2027-01-04",
+      "days": 16,
+      "sourceUrl": "https://www.somerset.gov.uk/children-families-and-education/school-life/school-term-dates-and-holidays/"
+    },
+    {
+      "market": "Australia",
+      "name": "Summer school break",
+      "scope": "NSW Eastern Division proxy",
+      "startDate": "2026-12-22",
+      "endDate": "2027-01-26",
+      "days": 36,
+      "sourceUrl": "https://education.nsw.gov.au/schooling/calendars/2026"
+    },
+    {
+      "market": "USA",
+      "name": "Winter recess",
+      "scope": "New York City proxy",
+      "startDate": "2026-12-24",
+      "endDate": "2027-01-02",
+      "days": 10,
+      "sourceUrl": "https://www.schools.nyc.gov/calendar/2025-2026-school-year-calendar"
+    },
+    {
+      "market": "Japan",
+      "name": "Winter school break",
+      "scope": "Tokyo metropolitan proxy",
+      "startDate": "2026-12-26",
+      "endDate": "2027-01-07",
+      "days": 13,
+      "sourceUrl": "https://www.kyoiku.metro.tokyo.lg.jp/"
+    },
+    {
+      "market": "India",
+      "name": "Winter school break",
+      "scope": "Delhi proxy",
+      "startDate": "2027-01-01",
+      "endDate": "2027-01-15",
+      "days": 15,
+      "sourceUrl": "https://www.edudel.nic.in/upload/upload_2023_24/1010_dt_04122024.pdf"
+    },
+    {
+      "market": "South Korea",
+      "name": "Winter school break",
+      "scope": "Seoul proxy",
+      "startDate": "2027-01-01",
+      "endDate": "2027-02-28",
+      "days": 59,
+      "sourceUrl": "https://www.sen.go.kr/"
+    },
+    {
+      "market": "China",
+      "name": "Winter school break",
+      "scope": "Beijing proxy",
+      "startDate": "2027-01-24",
+      "endDate": "2027-03-01",
+      "days": 37,
+      "sourceUrl": "https://jw.beijing.gov.cn/xxgk/2024zcwj/2024qtwj/202507/t20250704_4141331.html"
+    }
+  ],
+  "internationalSchoolBreaks": [
+    {
+      "curriculum": "US curriculum",
+      "name": "Summer break",
+      "startDate": "2026-06-05",
+      "endDate": "2026-08-11",
+      "days": 68,
+      "sourceUrl": "https://www.sas.edu.sg/calendars"
+    },
+    {
+      "curriculum": "UK curriculum",
+      "name": "Summer break",
+      "startDate": "2026-07-01",
+      "endDate": "2026-08-17",
+      "days": 48,
+      "sourceUrl": "https://www.tts.edu.sg/school-life/term-dates"
+    },
+    {
+      "curriculum": "AU curriculum",
+      "name": "Term 3 break",
+      "startDate": "2026-09-21",
+      "endDate": "2026-10-02",
+      "days": 12,
+      "sourceUrl": "https://www.ais.com.sg/school-life/calendar-dates/"
+    },
+    {
+      "curriculum": "UK curriculum",
+      "name": "October half-term",
+      "startDate": "2026-10-12",
+      "endDate": "2026-10-23",
+      "days": 12,
+      "sourceUrl": "https://www.tts.edu.sg/school-life/term-dates"
+    },
+    {
+      "curriculum": "US curriculum",
+      "name": "Fall break",
+      "startDate": "2026-10-19",
+      "endDate": "2026-10-23",
+      "days": 5,
+      "sourceUrl": "https://www.sas.edu.sg/calendars"
+    },
+    {
+      "curriculum": "AU curriculum",
+      "name": "Summer break",
+      "startDate": "2026-12-11",
+      "endDate": "2027-01-18",
+      "days": 39,
+      "sourceUrl": "https://www.ais.com.sg/school-life/calendar-dates/"
+    },
+    {
+      "curriculum": "UK curriculum",
+      "name": "Year-end break",
+      "startDate": "2026-12-19",
+      "endDate": "2027-01-10",
+      "days": 23,
+      "sourceUrl": "https://www.tts.edu.sg/school-life/term-dates"
+    },
+    {
+      "curriculum": "US curriculum",
+      "name": "Winter break",
+      "startDate": "2026-12-21",
+      "endDate": "2027-01-08",
+      "days": 19,
+      "sourceUrl": "https://www.sas.edu.sg/calendars"
+    }
+  ]
+}

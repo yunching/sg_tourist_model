@@ -1,0 +1,11 @@
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+*.orig
+.pytest_cache/
+data/raw/*.csv
+data/processed/*.csv
+outputs/*.csv
+outputs/*.json
+!data/manual/*.csv

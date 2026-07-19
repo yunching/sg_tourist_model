@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=69"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sg-tourist-model"
+version = "0.1.0"
+description = "Monthly Singapore tourist-arrival and crowd-pressure forecasting MVP"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+  "holidays>=0.70",
+  "numpy>=2.0",
+  "pandas>=2.2",
+]
+
+[project.scripts]
+sg-tourist-model = "sg_tourist_model.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
